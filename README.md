@@ -2,13 +2,13 @@
 ### If you would like the script to do everything for you:
 ```bash
 git clone https://github.com/Moonsploit/badsilver
-cd badbr0ker
+cd badsilver
 bash buildfull_badsilver.sh <board>
 ```
 ### If you would like to use a local recovery image: (NOT IMPLEMENTED)
 ```bash
 git clone https://github.com/moonsploit/badsilver
-cd badbr0ker
+cd badsilver
 bash update_downloader.sh <board>
 sudo ./build_badsilver.sh -i image.bin -t unverified
 ```
