@@ -1,0 +1,16 @@
+asurada,chromeos_16295.70.0_asurada_recovery_stable-channel_AsuradaMPKeys-v8.bin
+atlas,chromeos_16295.70.0_atlas_recovery_stable-channel_AtlasMPKeys-v8.bin
+brya,chromeos_16295.70.0_brya_recovery_stable-channel_BryaMPKeys-v21.bin
+cherry,chromeos_16295.70.0_cherry_recovery_stable-channel_CherryMPKeys-v8.bin
+corsola,chromeos_16295.70.0_corsola_recovery_stable-channel_CorsolaMPKeys-v22.bin
+dedede,chromeos_16295.70.0_dedede_recovery_stable-channel_DededeMPKeys-v57.bin
+drallion,chromeos_16295.70.0_drallion_recovery_stable-channel_DrallionMPKeys-v8.bin
+geralt,chromeos_16295.70.0_geralt_recovery_stable-channel_GeraltMPKeys-v6.bin
+nissa,chromeos_16295.70.0_nissa_recovery_stable-channel_NissaMPKeys-v58.bin
+nocturne,chromeos_16295.70.0_nocturne_recovery_stable-channel_NocturneMPKeys-v7.bin
+octopus,chromeos_16295.70.0_octopus_recovery_stable-channel_OctopusMPKeys-v37.bin
+rammus,chromeos_16295.70.0_rammus_recovery_stable-channel_RammusMPKeys-v8.bin
+rex,chromeos_16295.70.0_rex_recovery_stable-channel_RexMPKeys-v6.bin.zip
+sarien,chromeos_16295.70.0_sarien_recovery_stable-channel_SarienMPKeys-v9.bin.zip
+skyrim,chromeos_16295.70.0_skyrim_recovery_stable-channel_SkyrimMPKeys-v11.bin.zip
+staryu,chromeos_16295.70.0_staryu_recovery_stable-channel_StaryuMPKeys-v9.bin.zip
