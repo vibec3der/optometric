@@ -27,7 +27,7 @@ vpd -i RW_VPD -d "re_enrollment_key"
 ### How do I make a usb?
 Download a prebuilt from the [prebuilts section](#prebuilts), or build an image yourself with the above commands.  Flash it using the [Chromebook Recovery Utility](https://chromewebstore.google.com/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm), or anything else that etches disk images to USB drives. Such as [balenaEtcher](https://etcher.balena.io/), [dd](https://wiki.archlinux.org/title/Dd) or [rufus](https://rufus.ie/en/)
 ### I have a usb, what now?
-Complete [silverstream?](https://github.com/crosbreaker/silverstream), then enter developer mode and recover to your usb
+Complete [(???)](https://github.com/crosbreaker/???), then enter developer mode and recover to your usb
 ### Prebuilts
 
 [dl.snerill.org/badsilver](https://dl.snerill.org/badsilver)
@@ -39,3 +39,7 @@ Complete [silverstream?](https://github.com/crosbreaker/silverstream), then ente
 [Crossjbly](https://github.com/crossjbly) - Fixing a few things [badbr0ker]
 
 [codenerd](https://github.com/codenerd87) - adding more board support (everything but nissa, dedede and corsola) [badbr0ker]
+
+[emery](https://github.com/emerwyi) - finding quicksilver
+
+[crosbreaker](https://github.com/crosbreaker) - finding (???)
