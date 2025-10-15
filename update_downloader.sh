@@ -4,8 +4,8 @@ SCRIPT_DIR=${SCRIPT_DIR:-"."}
 
 set -eE
 
-URL_FILE="$SCRIPT_DIR/lib/latest_r132.txt"
-OUT_DIR="$SCRIPT_DIR/badbr0ker"
+URL_FILE="$SCRIPT_DIR/lib/latest_r138.txt"
+OUT_DIR="$SCRIPT_DIR/badsilver"
 UPDATE_ENGINE="$SCRIPT_DIR/lib/update_engine"
 UPDATE_SOURCE="https://dl.google.com/chromeos"
 
@@ -50,7 +50,7 @@ else
 fi
 if [ "$BOARD" = "eve" ]; then
     # your command here
-    echo "BOARD is eve, you will need to manually recover to 132 :("
+    echo "BOARD is eve, you will need to manually recover to 138 :("
 	exit
 fi
 
