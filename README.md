@@ -1,4 +1,4 @@
-# Support
+# badsilver - keyrolled kv6 unenrollment
 ### If you would like the script to do everything for you:
 ```bash
 git clone https://github.com/Moonsploit/badsilver
@@ -14,7 +14,7 @@ sudo ./build_badsilver.sh -i image.bin -t unverified
 ```
 ### What is this?
 badsilver is quicksilver injected into badrecovery unverified, allowing for unenrollment on keyrolled kv6 ChromeOS devices.
-### If you are on a [BadApple](https://github.com/applefritter-inc/BadApple) vulnernable device
+### If you are on a [baddieapple](https://github.com/crosbreaker/baddieapple) vulnernable device
 Simply run the following in the shell to unenroll:
 ```bash
 vpd -i RW_VPD -s "re_enrollment_key"="$(openssl rand -hex 32)"
@@ -26,7 +26,7 @@ vpd -i RW_VPD -d "re_enrollment_key"
 ### How do I make a usb?
 Download a prebuilt from the [prebuilts section](#prebuilts), or build an image yourself with the above commands.  Flash it using the [Chromebook Recovery Utility](https://chromewebstore.google.com/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm), or anything else that etches disk images to USB drives. Such as [balenaEtcher](https://etcher.balena.io/), [dd](https://wiki.archlinux.org/title/Dd) or [rufus](https://rufus.ie/en/)
 ### I have a usb, what now?
-Complete [(???)](https://github.com/crosbreaker/???), then enter developer mode and recover to your usb
+Complete [???](https://github.com/crosbreaker/???), then enter developer mode and recover to your usb
 ### Prebuilts
 
 [dl.snerill.org/badsilver](https://dl.snerill.org/badsilver)
@@ -41,4 +41,4 @@ Complete [(???)](https://github.com/crosbreaker/???), then enter developer mode 
 
 [emery](https://github.com/emerwyi) - finding quicksilver
 
-[crosbreaker](https://github.com/crosbreaker) - finding (???)
+[crosbreaker](https://github.com/crosbreaker) - baddieapple and ???
