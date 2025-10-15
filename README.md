@@ -2,13 +2,13 @@
 # Support
 ### If you would like the script to do everything for you:
 ```bash
-git clone https://github.com/crosbreaker/badsilver
+git clone https://github.com/Moonsploit/badsilver
 cd badbr0ker
 bash buildfull_badsilver.sh <board>
 ```
 ### If you would like to use a local recovery image: (NOT IMPLEMENTED)
 ```bash
-git clone https://github.com/crosbreaker/badsilver
+git clone https://github.com/moonsploit/badsilver
 cd badbr0ker
 bash update_downloader.sh <board>
 sudo ./build_badsilver.sh -i image.bin -t unverified
@@ -30,7 +30,7 @@ Download a prebuilt from the [prebuilts section](#prebuilts), or build an image 
 Complete [silverstream?](https://github.com/crosbreaker/silverstream), then enter developer mode and recover to your usb
 ### Prebuilts
 
-[GitHub actions](https://dl.snerill.org/badsilver)
+[dl.snerill.org/badsilver](https://dl.snerill.org/badsilver)
 ### Credits:
 [HarryTarryJarry](https://github.com/HarryTarryJarry) - All badbr0ker development [badbr0ker]
 
