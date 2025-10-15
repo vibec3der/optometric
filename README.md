@@ -1,4 +1,3 @@
-### badsilver
 # Support
 ### If you would like the script to do everything for you:
 ```bash
