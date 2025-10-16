@@ -31,7 +31,7 @@ Complete [???](https://github.com/crosbreaker/???), then enter developer mode an
 
 [dl.snerill.org/badsilver](https://dl.snerill.org/badsilver)
 ### Credits:
-[HarryTarryJarry](https://github.com/HarryTarryJarry) - All badbr0ker development [badbr0ker]
+[HarryTarryJarry](https://github.com/HarryTarryJarry) - All badbr0ker development
 
 [BinBashBanana](https://github.com/binbashbanana) - badrecovery
 
@@ -40,5 +40,7 @@ Complete [???](https://github.com/crosbreaker/???), then enter developer mode an
 [codenerd](https://github.com/codenerd87) - adding more board support (everything but nissa, dedede and corsola) [badbr0ker]
 
 [emery](https://github.com/emerwyi) - finding quicksilver
+
+[Moonsploit](https://github.com/Moonsploit) - All badsilver development
 
 [crosbreaker](https://github.com/crosbreaker) - baddieapple and ???
