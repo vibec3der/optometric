@@ -1,13 +1,13 @@
 ### If you arent keyrolled, use regular [quicksilver](https://github.com/Moonsploit/quicksilver) instead.
 # badsilver - keyrolled kv6 unenrollment
+### What is this?
+badsilver is quicksilver injected into badrecovery unverified, allowing for unenrollment on keyrolled kernver 6 ChromeOS devices.
 ### If you would like the script to do everything for you:
 ```bash
 git clone https://github.com/Moonsploit/badsilver
 cd badsilver
 bash buildfull_badsilver.sh <board>
 ```
-### What is this?
-badsilver is quicksilver injected into badrecovery unverified, allowing for unenrollment on keyrolled kernver 6 ChromeOS devices.
 ### If you are using [badrecovery](https://github.com/BinBashBanana/badrecovery) unverified:
 Simply run the following in the shell to unenroll:
 ```bash
