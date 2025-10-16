@@ -13,7 +13,7 @@ bash update_downloader.sh <board>
 sudo ./build_badsilver.sh -i image.bin -t unverified
 ```
 ### What is this?
-badsilver is quicksilver injected into badrecovery unverified, allowing for unenrollment on keyrolled kv6 ChromeOS devices.
+badsilver is quicksilver injected into badrecovery unverified, allowing for unenrollment on keyrolled kernver 6 ChromeOS devices.
 ### If you are on a [baddieapple](https://github.com/crosbreaker/baddieapple) vulnernable device
 Simply run the following in the shell to unenroll:
 ```bash
