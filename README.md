@@ -1,3 +1,4 @@
+### If you arent keyrolled, used regular [quicksilver](https://github.com/Moonsploit/quicksilver) instead.
 # badsilver - keyrolled kv6 unenrollment
 ### If you would like the script to do everything for you:
 ```bash
