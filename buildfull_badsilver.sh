@@ -62,6 +62,6 @@ bash update_downloader.sh "$board" || fail "update_downloader.sh exited with an 
 echo "running build_badrecovery.sh"
 sudo ./build_badrecovery.sh -i "$FILENAME" -t unverified || fail "build_badrecovery.sh exited with an error"
 echo "Cleaning up directory"
-rm -rf badbr0ker/16093
-echo "No errors detected while buildng the badbr0ker image"
+rm -rf badsilver/16295
+echo "No errors detected while buildng the badsilver image"
 echo "File saved to $FILENAME"
