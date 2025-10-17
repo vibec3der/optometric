@@ -38,6 +38,6 @@ Complete [???](https://github.com/crosbreaker/???), then enter developer mode an
 
 [emery](https://github.com/emerwyi) - finding quicksilver
 
-[Moonsploit](https://github.com/Moonsploit) - All badsilver development
-
 [crosbreaker](https://github.com/crosbreaker) - ???
+
+adamsitouu, snerill and platido - testing
