@@ -14,7 +14,7 @@ read -p "Choose option: " choice
 case $choice in
     1)
         echo "Generating re-enrollment key..."
-        if vpd -i RW_VPD -s re_enrollment_key="$(hexdump -e '1/1 "%02x"' -v -n 32 /dev/urandom)"; then
+        if so vpd -i RW_VPD -s re_enrollment_key="$(hexdump -e '1/1 "%02x"' -v -n 32 /dev/urandom)"; then
             echo "Unenrollment complete!"
         else
             echo "Failed to set re-enrollment key"
