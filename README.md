@@ -34,4 +34,4 @@ Complete [???](https://github.com/crosbreaker/???), then enter developer mode an
 
 [Moonsploit](https://github.com/Moonsploit) - All badsilver development
 
-[crosbreaker](https://github.com/crosbreaker) - baddieapple and ???
+[crosbreaker](https://github.com/crosbreaker) - ???
