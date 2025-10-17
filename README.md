@@ -11,7 +11,7 @@ bash buildfull_badsilver.sh <board>
 ### If you are using [badrecovery](https://github.com/BinBashBanana/badrecovery) unverified:
 Simply run the following in the shell to unenroll:
 ```bash
-vpd -i RW_VPD -s re_enrollment_key="($hexdump -e '1/1 "%02x"' -v -n 32 /dev/urandom)"
+vpd -i RW_VPD -s re_enrollment_key="$(hexdump -e '1/1 "%02x"' -v -n 32 /dev/urandom)"
 ```
 Or this to reenroll:
 ```bash
