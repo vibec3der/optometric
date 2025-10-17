@@ -8,6 +8,12 @@ git clone https://github.com/Moonsploit/badsilver
 cd badsilver
 bash buildfull_badsilver.sh <board>
 ```
+### If you would like to use a local recovery image:
+```bash
+git clone https://github.com/Moonsploit/badsilver
+cd badbr0ker
+sudo ./build_badrecovery.sh -i image.bin -t unverified
+```
 ### If you are using [badrecovery](https://github.com/BinBashBanana/badrecovery) unverified:
 Simply run the following in the shell to unenroll:
 ```bash
