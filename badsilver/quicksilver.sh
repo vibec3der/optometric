@@ -17,15 +17,15 @@ while true; do
     echo "1) Unenroll"
     echo "2) Reenroll" 
     echo "3) Shell"
+    echo "4) Reboot"
     read -p "Choose option: " choice
 
     case $choice in
         1)
             if vpd -i RW_VPD -s re_enrollment_key="$(hexdump -e '1/1 "%02x"' -v -n 32 /dev/urandom)"; then
                 echo "Unenrollment success!"
-                echo "Device will reboot in 5 seconds..."
-                sleep 5
-                /sbin/reboot
+                echo "Returning to menu in 3 seconds..."
+                sleep 3
             else
                 echo "Error: failed to set re_enrollment_key"
                 echo "Returning to menu in 3 seconds..."
@@ -35,9 +35,8 @@ while true; do
         2)
             if vpd -i RW_VPD -d "re_enrollment_key"; then
                 echo "Reenrollment success!"
-                echo "Device will reboot in 5 seconds..."
-                sleep 5
-                /sbin/reboot
+                echo "Returning to menu in 3 seconds..."
+                sleep 3
             else
                 echo "Error: failed to delete re_enrollment_key"
                 echo "Returning to menu in 3 seconds..."
@@ -47,9 +46,13 @@ while true; do
         3)
             /bin/bash
             ;;
+        4)
+            echo "Rebooting..."
+            /sbin/reboot
+            ;;
         *)
             echo "Invalid option, please try again..."
-            sleep 2
+            sleep 3
             ;;
     esac
 done
