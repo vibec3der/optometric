@@ -38,7 +38,7 @@ check_deps() {
 		command -v "$dep" &>/dev/null || echo "$dep"
 	done
 }
-missing_deps=$(check_deps partx sgdisk mkfs.ext4 cryptsetup lvm numfmt tar curl git python3 protoc gzip jq)
+missing_deps=$(check_deps partx sgdisk mkfs.ext4 cryptsetup lvm numfmt tar curl jq)
 [ "$missing_deps" ] && fail "The following required commands weren't found in PATH:\n${missing_deps}"
 
 findimage
@@ -56,12 +56,9 @@ rm recovery.zip || fail "Failed to delete zipped recovery image"
 FILENAME=$(find . -maxdepth 2 -name "chromeos_*.bin") # 2 incase the zip format changes
 echo "Found recovery image from archive at $FILENAME"
 
-echo "running update_downloader.sh"
-bash update_downloader.sh "$board" || fail "update_downloader.sh exited with an error"
-
 echo "running build_badrecovery.sh"
 sudo ./build_badrecovery.sh -i "$FILENAME" -t unverified || fail "build_badrecovery.sh exited with an error"
 echo "Cleaning up directory"
 rm -rf badsilver/16295
-echo "No errors detected while buildng the badsilver image"
+echo "No errors detected while building the badsilver image"
 echo "File saved to $FILENAME"
