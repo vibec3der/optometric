@@ -47,8 +47,7 @@ while true; do
             /bin/bash
             ;;
         4)
-            echo "Rebooting..."
-            /sbin/reboot
+            reboot -f
             ;;
         *)
             echo "Invalid option, please try again..."
