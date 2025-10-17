@@ -44,7 +44,7 @@ while true; do
             fi
             ;;
         3)
-            /bin/bash
+            /bin/sh
             ;;
         4)
             reboot -f
