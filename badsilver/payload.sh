@@ -283,6 +283,6 @@ else
 fi
 
 printf "\n"
-sh /usb/usr/sbin/quicksilver.sh
+sh /usb/usr/sbin/badsilver.sh
 printf "\033[?25h"
 while :; do sh; done
