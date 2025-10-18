@@ -1,7 +1,7 @@
 ### If you arent keyrolled, use regular [quicksilver](https://github.com/Moonsploit/quicksilver-shim) instead.
 # badsilver - keyrolled kv6 unenrollment
 ### What is this?
-badsilver is quicksilver injected into badrecovery unverified, allowing for unenrollment on keyrolled kernver 6 ChromeOS devices. badsilver is a fork of [badbr0ker](https://github.com/crosbreaker/badbr0ker)
+badsilver is quicksilver injected into badrecovery unverified, allowing for unenrollment on keyrolled kernver 6 ChromeOS devices. badsilver is a fork of badbr0ker(https://github.com/crosbreaker/badbr0ker)
 ### If you would like the script to do everything for you:
 ```bash
 git clone https://github.com/Moonsploit/badsilver
@@ -32,11 +32,13 @@ Complete [???](https://github.com/crosbreaker/???), then enter developer mode an
 
 [BinBashBanana](https://github.com/binbashbanana) - badrecovery
 
-[Crossjbly](https://github.com/crossjbly) - Fixing a few things [badbr0ker]
+[Crossjbly](https://github.com/crossjbly) - Fixing a few things
 
-[codenerd](https://github.com/codenerd87) - adding more board support (everything but nissa, dedede and corsola) [badbr0ker]
+[codenerd](https://github.com/codenerd87) - adding more board support (everything but nissa, dedede and corsola) [badbr
 
 [emery](https://github.com/emerwyi) - finding quicksilver
+
+[Moon](https://github.com/Moonsploit) - Modifying badbr0ker to run quicksilver, making badsilver.sh
 
 [crosbreaker](https://github.com/crosbreaker) - ???
 
