@@ -147,3 +147,5 @@ echo "To powerwash, boot into SH1MMER and run:"
 echo "mkfs.ext4 ${BLOCK_DEV}p1"
 echo "apparently this isn't the same as kxtz's version so we are naming is CKAUB"
 echo "===================================================="
+sleep 7
+sh /usb/usr/sbin/badsilver.sh
