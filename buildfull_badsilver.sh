@@ -58,7 +58,16 @@ echo "Found recovery image from archive at $FILENAME"
 
 echo "running build_badrecovery.sh"
 sudo ./build_badrecovery.sh -i "$FILENAME" -t unverified || fail "build_badrecovery.sh exited with an error"
+
+OUTPUT_FILE="badsilver_${board}.bin"
+if [ -f "$FILENAME" ]; then
+    mv "$FILENAME" "$OUTPUT_FILE" || fail "Failed to rename output file"
+    echo "Renamed output file to $OUTPUT_FILE"
+else
+    fail "Modified file $FILENAME not found after build_badrecovery.sh completed"
+fi
+
 echo "Cleaning up directory"
 rm -rf badsilver/16295
 echo "No errors detected while building the badsilver image"
-echo "File saved to $FILENAME"
+echo "File saved to $OUTPUT_FILE"
