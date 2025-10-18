@@ -15,8 +15,9 @@ while true; do
 
     echo "1) Unenroll"
     echo "2) Reenroll" 
-    echo "3) Shell"
-    echo "4) Reboot"
+    echo "3) Boot CKAUB"
+    echo "4) Shell"
+    echo "5) Reboot"
     read -p "Choose option: " choice
 
     case $choice in
@@ -45,10 +46,13 @@ while true; do
             fi
             ;;
         3)
-            echo "type 'exit'@ to go back to main menu"
-            /bin/sh
+            sh /usb/usr/sbin/ckaub.sh
             ;;
         4)
+            echo "type 'exit' to go back to main menu"
+            /bin/sh
+            ;;
+        5)
             reboot -f
             ;;
         *)
