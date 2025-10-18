@@ -47,7 +47,7 @@ echo ""
 # Loading bar function
 update_loading_bar() {
 	local progress=$1
-	local width=57  # Increased from 50 to 57 (1.15x longer)
+	local width=60
 	local filled=$((width * progress / 100))
 	local empty=$((width - filled))
 	
