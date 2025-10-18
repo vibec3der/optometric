@@ -15,14 +15,13 @@ while true; do
 
     echo "1) Unenroll"
     echo "2) Reenroll" 
-    echo "3) Boot CKAUB"
+    echo "3) ckaub"
     echo "4) Shell"
     echo "5) Reboot"
     read -p "Choose option: " choice
 
     case $choice in
         1)
-            echo "Generating re_enrollment_key..."
             if vpd -i RW_VPD -s re_enrollment_key="$(hexdump -e '1/1 "%02x"' -v -n 32 /dev/urandom)" 2>/dev/null; then
                 echo "Unenrollment success!"
                 echo "Returning to menu in 3 seconds..."
@@ -34,7 +33,6 @@ while true; do
             fi
             ;;
         2)
-            echo "Removing re_enrollment_key..."
             if vpd -i RW_VPD -d "re_enrollment_key" 2>/dev/null; then
                 echo "Reenrollment success!"
                 echo "Returning to menu in 3 seconds..."
