@@ -1,5 +1,5 @@
 #!/bin/bash
-
+clear
 echo "=== ChromeOS Kernel Version Block (CKAUB) Script ==="
 echo "Made by Lxrd and Codenerd, with credits to Con for finding a new way to powerwash with daub using lvm and fanq for helping with the script + emotional support"
 echo "Credits to Kxtz for the original idea of KAUB. He had KAUB before but he never released it, we just managed to find it ourselves"
