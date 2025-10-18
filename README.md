@@ -42,4 +42,4 @@ Complete [???](https://github.com/crosbreaker/???), then enter developer mode an
 
 [crosbreaker](https://github.com/crosbreaker) - ???
 
-adamsitouu, snerill and platido - testing
+[adamsitouu](https://github.com/ItzAdxmm), [snerill](https://github.com/snerillinn), platido - testing
