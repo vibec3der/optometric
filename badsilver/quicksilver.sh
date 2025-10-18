@@ -10,7 +10,6 @@ while true; do
     echo " ██████╔╝██║  ██║██████╔╝███████║██║███████╗╚████╔╝ ███████╗██║  ██║"
     echo " ╚═════╝ ╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝╚══════╝ ╚═══╝  ╚══════╝╚═╝  ╚═╝"
     echo "               kv6 unenrollment for keyrolled devices"
-    echo "                            by Moonsploit"
     echo "             All credit for quicksilver goes to emerwyi"
     echo ""
 
