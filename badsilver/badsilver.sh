@@ -21,20 +21,20 @@ while true; do
 
     case $choice in
         1)
-            vpd -i RW_VPD -s re_enrollment_key="$(hexdump -e '1/1 "%02x"' -v -n 32 /dev/urandom)"
+            vpd -i RW_VPD -s re_enrollment_key="$(hexdump -e '1/1 "%02x"' -v -n 32 /dev/urandom)" 2>/dev/null
             echo "Unenrollment complete!"
             echo "Returning to menu in 3 seconds..."
             sleep 3
             ;;
         2)
-            vpd -i RW_VPD -d "re_enrollment_key"
+            vpd -i RW_VPD -d "re_enrollment_key" 2>/dev/null
             echo "Reenrollment complete!"
             echo "Returning to menu in 3 seconds..."
             sleep 3
             ;;
         3)
             echo "type 'exit' to go back to main menu"
-            /bin/sh
+            /bin/sh 2>/dev/null
             ;;
         4)
             reboot -f
