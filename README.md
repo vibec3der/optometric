@@ -2,6 +2,7 @@
 # badsilver - keyrolled kv6 unenrollment
 ### What is this?
 badsilver is quicksilver injected into badrecovery unverified, allowing for unenrollment on keyrolled kernver 6 ChromeOS devices. badsilver is a fork of [badbr0ker](https://github.com/crosbreaker/badbr0ker)
+requirements: cryptsetup lvm2 curl jq
 ### If you would like the script to do everything for you:
 ```bash
 git clone https://github.com/Moonsploit/badsilver
