@@ -23,14 +23,12 @@ while true; do
         1)
             vpd -i RW_VPD -s re_enrollment_key="$(hexdump -e '1/1 "%02x"' -v -n 32 /dev/urandom)" 2>/dev/null
             echo "Unenrollment complete!"
-            echo "Returning to menu in 3 seconds..."
-            sleep 3
+            read -p "Press Enter to return to menu..."
             ;;
         2)
             vpd -i RW_VPD -d "re_enrollment_key" 2>/dev/null
             echo "Reenrollment complete!"
-            echo "Returning to menu in 3 seconds..."
-            sleep 3
+            read -p "Press Enter to return to menu..."
             ;;
         3)
             echo "type 'exit' to go back to main menu"
@@ -41,7 +39,7 @@ while true; do
             ;;
         *)
             echo "Invalid option, please try again..."
-            sleep 3
+            read -p "Press Enter to return to menu..."
             ;;
     esac
 done
