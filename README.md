@@ -38,9 +38,3 @@ Complete [???](https://github.com/crosbreaker/???), then enter developer mode an
 [codenerd](https://github.com/codenerd87) - adding more board support (everything but nissa, dedede and corsola) [badbr
 
 [emery](https://github.com/emerwyi) - finding quicksilver
-
-[Moon](https://github.com/Moonsploit) - Modifying badbr0ker to run quicksilver, making badsilver.sh
-
-[crosbreaker](https://github.com/crosbreaker) - ???
-
-[adamsitouu](https://github.com/ItzAdxmm), [snerill](https://github.com/snerillinn), platido - testing
