@@ -7,7 +7,7 @@ requirements: cryptsetup lvm2 curl jq
 ```bash
 git clone https://github.com/Moonsploit/badsilver
 cd badsilver
-bash buildfull_badsilver.sh <board>
+sudo bash buildfull_badsilver.sh <board>
 ```
 ### If you would like to use a local recovery image:
 ```bash
