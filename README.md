@@ -29,12 +29,9 @@ Download a prebuilt from [dl.snerill.org/badsilver](https://dl.snerill.org/badsi
 ### I have flashed a usb drive or sd card, what now?
 Complete [???](https://github.com/crosbreaker/???), then enter developer mode and recover to your usb, choose to unenroll or reenroll, then reboot and disable developer mode. When you setup it will be unenrolled.
 ### Credits:
-[HarryTarryJarry](https://github.com/HarryTarryJarry) - All badbr0ker development
 
 [BinBashBanana](https://github.com/binbashbanana) - badrecovery
 
-[Crossjbly](https://github.com/crossjbly) - Fixing a few things
-
-[codenerd](https://github.com/codenerd87) - adding more board support (everything but nissa, dedede and corsola) [badbr
+[crosbreaker](https://github.com/crosbreaker) - badbr0ker
 
 [emery](https://github.com/emerwyi) - finding quicksilver
