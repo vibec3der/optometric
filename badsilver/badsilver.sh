@@ -32,7 +32,7 @@ while true; do
             ;;
         3)
             echo "type 'exit' to go back to main menu"
-            /bin/sh 2>/dev/null
+            /bin/sh
             ;;
         4)
             reboot -f
