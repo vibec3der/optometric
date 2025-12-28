@@ -24,9 +24,9 @@ Or this to reenroll:
 vpd -i RW_VPD -d "re_enrollment_key"
 ```
 ### How do I flash it to a usb drive or sd card?
-Download a prebuilt from [dl.snerill.org/badsilver](https://dl.snerill.org/badsilver), or build an image yourself with the above commands.  Flash it using the [Chromebook Recovery Utility](https://chromewebstore.google.com/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm), or anything else that flashes images to USB drives and sd cards, such as [balenaEtcher](https://etcher.balena.io/), [dd](https://en.wikipedia.org/wiki/Dd_(Unix)) or [rufus](https://rufus.ie/en/)
+Download a prebuilt from [dl.snerill.org/badsilver](https://dl.snerill.org/BadSilver), or build an image yourself with the above commands.  Flash it using the [Chromebook Recovery Utility](https://chromewebstore.google.com/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm), or anything else that flashes images to USB drives and sd cards, such as [balenaEtcher](https://etcher.balena.io/), [dd](https://en.wikipedia.org/wiki/Dd_(Unix)) or [rufus](https://rufus.ie/en/)
 ### I have flashed a usb drive or sd card, what now?
-Complete [???](https://github.com/crosbreaker/???), then enter developer mode and recover to your usb, choose to unenroll or reenroll, then reboot and disable developer mode. When you setup it will be unenrolled.
+Complete sh1ttyexec, then enter developer mode and recover to your usb, choose to unenroll or reenroll, then reboot and disable developer mode. When you setup it will be unenrolled.
 ### Credits:
 
 [BinBashBanana](https://github.com/binbashbanana) - badrecovery
