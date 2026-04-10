@@ -12,7 +12,7 @@ sudo bash buildfull_optometric.sh <board>
 None yet, I'm still testing with the script
 
 ## Flashing:
-Flash with any tool (Rufus, dd, cru, balenaetcher) and select the file as the item to flash to [your usb/sd card]
+Flash with any tool (Rufus, dd, cru, balenaetcher, etc) and select the file as the item to flash to [your usb/sd card]
 
 ### I have flashed a usb drive or sd card, what now?
 Complete sh1ttyexec, then enter developer mode and recover to your usb, choose to unenroll or reenroll, then reboot and disable developer mode. When you setup it will be unenrolled.
