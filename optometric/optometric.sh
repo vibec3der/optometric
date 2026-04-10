@@ -9,8 +9,8 @@ while true; do
     echo "██║   ██║██╔═══╝    ██║   ██║   ██║██║╚██╔╝██║██╔══╝     ██║   ██╔══██╗██║██║     "
     echo "╚██████╔╝██║        ██║   ╚██████╔╝██║ ╚═╝ ██║███████╗   ██║   ██║  ██║██║╚██████╗"
     echo " ╚═════╝ ╚═╝        ╚═╝    ╚═════╝ ╚═╝     ╚═╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝ ╚═════╝"
-    echo "               kv6 unenrollment tooling created by vibec3der"
-    echo "    All credit for quicksilver and utilities goes to emerwyi and creators"
+    echo "                    kv6 unenrollment tooling created by vibec3der"
+    echo "All credit for quicksilver and utilities goes to emerwyi, Aerialite Labs, and creators"
     echo ""
  
     echo "1) Unenroll"
