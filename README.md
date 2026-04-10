@@ -5,8 +5,8 @@
 ### Building:
 ```bash
 git clone https://github.com/vibec3der/optometric
-cd badsilver
-sudo bash buildfull_badsilver.sh <board>
+cd optometric
+sudo bash buildfull_optometric.sh <board>
 ```
 
 ## Flashing:
