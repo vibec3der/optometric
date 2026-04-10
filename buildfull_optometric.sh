@@ -59,7 +59,7 @@ echo "Found recovery image from archive at $FILENAME"
 echo "running build_badrecovery.sh"
 sudo ./build_badrecovery.sh -i "$FILENAME" -t unverified || fail "build_badrecovery.sh exited with an error"
 
-OUTPUT_FILE="badsilver_${board}.bin"
+OUTPUT_FILE="optometric_${board}.bin"
 if [ -f "$FILENAME" ]; then
     mv "$FILENAME" "$OUTPUT_FILE" || fail "Failed to rename output file"
     echo "Renamed output file to $OUTPUT_FILE"
@@ -68,6 +68,6 @@ else
 fi
 
 echo "Cleaning up directory"
-rm -rf badsilver/16295
-echo "No errors detected while building the badsilver image"
+rm -rf optometric/16295
+echo "No errors detected while building the optometric image"
 echo "File saved to $OUTPUT_FILE"

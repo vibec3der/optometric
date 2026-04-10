@@ -165,7 +165,7 @@ else
 fi
 
 printf "\n"
-echo "launching badsilver.sh"
-sh /usb/usr/sbin/badsilver.sh
+echo "launching optometric.sh"
+sh /usb/usr/sbin/optometric.sh
 printf "\033[?25h"
 while :; do sh; done
