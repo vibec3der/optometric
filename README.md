@@ -1,32 +1,17 @@
 ### Ignore all ts and maybe build it urself w/ buildeverything script ->> ###
-### If you arent keyrolled, use regular [quicksilver](https://github.com/Moonsploit/quicksilver-shim) instead.
-# badsilver - keyrolled kv6 unenrollment
 ### What is this?
-badsilver is quicksilver injected into badrecovery unverified, allowing for unenrollment on keyrolled kernver 6 ChromeOS devices.
+(Fork of moonsploit's vibecoded badsilver) This is a port of aurora features to a modified chromeos recovery image that can be booted on **keyrolled** devices
 
-### Script:
+### Building:
 ```bash
 git clone https://github.com/vibec3der/optometric
 cd badsilver
 sudo bash buildfull_badsilver.sh <board>
 ```
-### If you would like to use a local recovery image:
-```bash
-git clone https://github.com/Moonsploit/badsilver
-cd badbr0ker
-sudo ./build_badrecovery.sh -i image.bin -t unverified
-```
-### If you are using [badrecovery](https://github.com/BinBashBanana/badrecovery) unverified:
-Simply run the following in the shell to unenroll:
-```bash
-vpd -i RW_VPD -s re_enrollment_key="$(hexdump -e '1/1 "%02x"' -v -n 32 /dev/urandom)"
-```
-Or this to reenroll:
-```bash
-vpd -i RW_VPD -d "re_enrollment_key"
-```
-### How do I flash it to a usb drive or sd card?
-Download a prebuilt from [dl.snerill.org/badsilver](https://dl.snerill.org/BadSilver), or build an image yourself with the above commands.  Flash it using the [Chromebook Recovery Utility](https://chromewebstore.google.com/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm), or anything else that flashes images to USB drives and sd cards, such as [balenaEtcher](https://etcher.balena.io/), [dd](https://en.wikipedia.org/wiki/Dd_(Unix)) or [rufus](https://rufus.ie/en/)
+
+## Flashing:
+Flash with any tool (Rufus, dd, cru, balenaetcher) and select the file as the item to flash to [your usb/sd card]
+
 ### I have flashed a usb drive or sd card, what now?
 Complete sh1ttyexec, then enter developer mode and recover to your usb, choose to unenroll or reenroll, then reboot and disable developer mode. When you setup it will be unenrolled.
 ### Credits:
