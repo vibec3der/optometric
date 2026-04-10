@@ -1,4 +1,4 @@
-### Ignore all ts and maybe build it urself ->> ###
+### Ignore all ts and maybe build it urself w/ buildeverything script ->> ###
 ### If you arent keyrolled, use regular [quicksilver](https://github.com/Moonsploit/quicksilver-shim) instead.
 # badsilver - keyrolled kv6 unenrollment
 ### What is this?
