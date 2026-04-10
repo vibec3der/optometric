@@ -22,6 +22,8 @@ Complete sh1ttyexec, then enter developer mode and recover to your usb, choose t
 
 [crosbreaker](https://github.com/crosbreaker) - badbr0ker
 
-[Aerialite Labs](https://github.com/AerialiteLabs/aurora) - ported Aurora features
+[Xmb9, soap-phia](https://github.com/xmb/Priism) - ported features
+
+[Aerialite Labs](https://github.com/AerialiteLabs/aurora) - ported features
 
 [emery](https://github.com/emerwyi) - finding quicksilver
