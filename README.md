@@ -8,6 +8,8 @@ git clone https://github.com/vibec3der/optometric
 cd optometric
 sudo bash buildfull_optometric.sh <board>
 ```
+## Images
+None yet, I'm still testing with the script
 
 ## Flashing:
 Flash with any tool (Rufus, dd, cru, balenaetcher) and select the file as the item to flash to [your usb/sd card]
