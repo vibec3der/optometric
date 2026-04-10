@@ -1,6 +1,6 @@
 
 ### What is this?
-Optometric is a shim with a bunch of utilites ported from [Priism](https://github.com/xmb9/Priism) and [Aurora](https://github.com/AerialiteLabs/aurora). The original badsilver source code was forked from [Moonsploit](https://github.com/Moonsploit), who partially vibecoded it (he forked from KVS).
+*Optometric* is a shim with a bunch of **utilites** ported from [Priism](https://github.com/xmb9/Priism) and [Aurora](https://github.com/AerialiteLabs/aurora). The original badsilver source code was forked from [Moonsploit](https://github.com/Moonsploit), who partially vibecoded it (he forked from KVS).
 
 ### Building:
 ```bash
