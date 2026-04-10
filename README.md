@@ -1,4 +1,4 @@
-### Ignore all ts and maybe build it urself w/ buildeverything script ->> ###
+
 ### What is this?
 (Fork of moonsploit's vibecoded badsilver) This is a port of aurora features to a modified chromeos recovery image that can be booted on **keyrolled** devices
 
@@ -19,5 +19,7 @@ Complete sh1ttyexec, then enter developer mode and recover to your usb, choose t
 [BinBashBanana](https://github.com/binbashbanana) - badrecovery
 
 [crosbreaker](https://github.com/crosbreaker) - badbr0ker
+
+[Aerialite Labs](https://github.com/AerialiteLabs/aurora) - ported Aurora features
 
 [emery](https://github.com/emerwyi) - finding quicksilver
