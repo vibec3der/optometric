@@ -8,6 +8,13 @@ git clone https://github.com/vibec3der/optometric
 cd optometric
 sudo bash buildfull_optometric.sh <board>
 ```
+(Example for the corsola board)
+```bash
+git clone https://github.com/vibec3der/optometric
+cd optometric
+sudo bash buildfull_optometric.sh corsola
+```
+
 ## Images
 None yet, I'm still testing with the script
 
